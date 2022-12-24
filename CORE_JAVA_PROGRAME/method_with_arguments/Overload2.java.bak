@@ -1,0 +1,13 @@
+class  Overload2
+{
+	public static void main(String[] args) 
+	{
+		main(9,8);
+	}
+	public void main(int i,int j)
+	{
+	Overload2 o1=new Overload2();
+	    System.out.println(o1.i);
+		System.out.println(o1.j);
+	}
+}

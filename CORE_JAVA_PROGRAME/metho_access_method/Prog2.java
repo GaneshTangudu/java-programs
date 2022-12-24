@@ -1,0 +1,22 @@
+class Prog2 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main starts");
+		Prog2 p2 = new Prog2();
+		p2.eat();
+		 System.out.println("main  ends");
+	}
+	public void eat()
+	{
+
+        System.out.println("eating starts!");
+		System.out.println("eating ends!");
+		drink();
+	}
+	public static void drink()
+	{
+		System.out.println("drinking starts");
+	System.out.println("drinking ends!");
+	}
+}

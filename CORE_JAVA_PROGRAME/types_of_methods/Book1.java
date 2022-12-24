@@ -1,0 +1,20 @@
+class  Book1
+{
+	public static void main(String[] args) 
+	{
+		selling(100);
+	}
+		public static void selling(int z)
+	{
+			int a=profit(100,20);
+			int b=a+z;
+		System.out.println("selling price of book "+b);
+    }
+	public static int profit(int cost,int per)
+	{
+	int a=cost*per/100;
+	return a;
+	
+
+	}
+}

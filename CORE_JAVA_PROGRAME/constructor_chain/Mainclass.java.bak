@@ -1,0 +1,37 @@
+class Box 
+{
+	public int l;
+	public int w;
+	public int h;
+	public Box(int l,int w,int h)
+	{
+		this.(l,w);
+		this.h=h;
+	}
+	public Box(int l,int w)
+	{
+		this.l=l;
+		this.w=w;
+		this.h=h;
+	}
+	public void dimension()
+	{
+		System.out.println("*******************");
+		System.out.println("l:"+l);
+		System.out.println("w:"+w);
+		if(h!=0)
+		{
+			System.out.println("h:"+h);
+		}
+	}
+}
+class MainClass
+{
+
+	public static void main(String[] args) 
+	{
+		Box box1=new Box(10,4,12);
+		Box box2=new Box(2,3,4);
+		Box box3=new Box(4,5);
+	}
+}

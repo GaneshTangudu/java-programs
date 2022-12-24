@@ -1,0 +1,27 @@
+class A 
+{
+	public static double d=6.8;
+	public static void first()
+    {
+		System.out.println(d);
+	}
+	class B
+	{
+		public double e=6.62;
+		public void second()
+		{
+			System.out.println(e);
+		}
+
+	}
+		class C
+		{
+         public static void main(String[] args) 
+			{
+             A.first();
+			 B b1=new B();
+			 b1.second();
+			}
+		}
+	
+

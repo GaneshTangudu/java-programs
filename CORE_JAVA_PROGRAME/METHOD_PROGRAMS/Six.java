@@ -1,0 +1,30 @@
+import java.util.Scanner;
+class  Six
+{
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		if (n==0)
+		{
+		System.out.println("zero");
+		}
+		 if(n%2!=0)
+		{
+			yohan();
+		}
+		 if(n%2==0)
+		{
+			Six s1=new Six();
+			s1.yohani();
+		}
+	}
+	public static void yohan()
+	{
+		System.out.println("odd");
+	}
+	public void yohani()
+	{
+		System.out.println("even");
+	}
+}

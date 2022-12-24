@@ -1,0 +1,36 @@
+class A
+{
+	public void test1()
+	{
+		System.out.println("A is upper case");
+	}
+	public void test2()
+	{
+		System.out.println("B is upper case");
+	}
+}
+class B extend A
+{
+    public void test1()
+	{
+		System.out.println("a is lower case");
+	}
+}
+class C extend B
+{
+    public void test2()
+	{
+		System.out.println("b is lower case");
+	}
+}
+class MainClass1
+{
+
+	
+	public static void main(String[] args) 
+	{
+		C c1=new C();
+		c1.test1();
+		c1.test2();
+	}
+}

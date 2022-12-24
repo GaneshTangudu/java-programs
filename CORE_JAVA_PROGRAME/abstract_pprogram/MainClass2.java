@@ -1,0 +1,26 @@
+ abstract 
+ class A
+{ 	
+	public void info()
+	{
+		System.out.println("display movie");
+	}
+	abstract public void display();
+}
+class B extends A
+{
+		 public void display()
+	{
+	System.out.println("my info");
+	}
+}
+class MainClass2
+{
+		
+	public static void main(String[] args) 
+	{
+		B b1=new B();
+		b1.info();
+		b1.display();
+	}
+}

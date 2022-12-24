@@ -1,0 +1,13 @@
+class  Demo2
+{
+	public int a=10;
+	public static void info()
+	{
+		Demo2 d1=new Demo2();
+		System.out.println(D1.a);
+	}
+	public static void main(String[] args) 
+	{
+		info();
+	}
+}

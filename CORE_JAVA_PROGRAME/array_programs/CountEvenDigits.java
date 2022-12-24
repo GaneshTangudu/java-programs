@@ -1,0 +1,35 @@
+import java.util.Scanner;
+class CountEvenDigits 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter size of an array:");
+		int size=sc.nextInt();
+		int a[]=new int[size];
+	    for (int i=0;i<a.length;i++)
+	    {
+			System.out.println("enter the value of index:"+i);
+			a[i]=sc.nextInt();
+		}
+		int count=0;
+		System.out.println("the even digits are:");
+		for (int i=0;i<a.length;i++)
+		{
+			int n=a[i];
+			while(n!=0)
+			{
+				if((n%10)%2==0)
+				{
+					count++;
+					System.out.print((n%10)+" ");
+				}
+				n/=10;
+			}
+		System.out.println();
+		System.out.println("the count of even digits in an array:"+count);
+		}
+	}
+}
+
+	    

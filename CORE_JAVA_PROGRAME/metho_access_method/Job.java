@@ -1,0 +1,26 @@
+class  Men
+{
+	public int sum=25;
+	public static void working()
+	{
+	    Men m1=new Men();
+		System.out.println(m1.sum);
+	}
+}
+class Women
+{
+	public static int product=14;
+	public void cooking()
+	{
+		System.out.println(product);
+	}
+}
+class Job
+{
+	public static void main(String[] args) 
+	{
+		Men.working();
+		Women w1=new Women();
+		w1.cooking();
+	}
+}

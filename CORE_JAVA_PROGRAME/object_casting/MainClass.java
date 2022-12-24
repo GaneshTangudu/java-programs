@@ -1,0 +1,26 @@
+class A 
+{
+	public void wings()
+	{
+		System.out.println("use wings to navigate");
+	}
+}
+class B extends A
+{
+	public void wheels()
+	{
+		System.out.println("use wheels to move on land");
+	}
+}
+class MainClass
+{
+    public static void main(String[] args) 
+	{
+		A a1=(A)new B();
+		a1.wings();
+		B b1=(B)a1;
+		b1.wheels();
+		b1.wings();
+
+	}
+}

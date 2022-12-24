@@ -1,0 +1,37 @@
+class A 
+{
+	public void hero()
+	{
+		System.out.println("hero in film industry");
+	}
+}
+class B extends A
+{
+	public void heroin()
+	{
+		System.out.println("heroin in film industry");
+	}
+}
+class C extends A
+{
+	public void villian()
+	{
+		System.out.println("villian in filmm industry");
+	}
+}
+class MainClass1
+{
+    public static void main(String[] args) 
+	{
+		a a1=(A)new B();
+		a1.hero();
+		B b1=(B)a1;
+		b1.hero();
+		b1.heroin();
+		A a2=(A)new C();
+		a2.hero();
+		C c1=(C)a2;
+		c1.villian();
+		c1.hero();
+	}
+}
