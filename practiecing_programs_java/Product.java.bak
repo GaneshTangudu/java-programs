@@ -1,0 +1,13 @@
+class Product 
+{
+	public static void main(String[] args) 
+	{
+		int i= m;
+		int i= n;
+		int product=1;
+		{
+		product=product*i;
+		}
+		System.out.println(m*n);
+	}
+}

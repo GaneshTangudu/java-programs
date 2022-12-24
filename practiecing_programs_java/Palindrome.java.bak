@@ -1,0 +1,25 @@
+//*print palindrome number*//
+class Palindrome 
+{
+	public static void main(String[] args) 
+	{
+		int a=505;
+		int temp=a;
+		int rev=0;
+		while(a!=0)
+		{
+			int lastdigit=a%10;
+			rev=rev*10+lastdigit;
+			a=a/10;
+		}
+		System.out.println(rev);
+		if(rev==temp)
+		{
+        System.out.println("palindrome");
+		}
+		else
+		{
+			System.out.println("not palindrome");
+		}
+	}
+}
